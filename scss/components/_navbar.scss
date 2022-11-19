@@ -1,0 +1,19 @@
+nav {
+	background-color: rgb(43, 120, 228);
+	li {
+		display: inline-block;
+		text-align: center;
+		a {
+			color: black;
+			background-color: whitesmoke;
+			padding: 10px;
+			display: block;
+			&:hover {
+				color: deepskyblue;
+			}
+		}
+	}
+}
+a {
+	text-decoration: none;
+}

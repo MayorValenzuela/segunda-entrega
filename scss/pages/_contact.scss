@@ -1,0 +1,44 @@
+.contact-box {
+	max-width: 850px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: #fff;
+}
+.field {
+	width: 100%;
+	border: 2px solid $FieldBorder;
+	outline: none;
+	background-color: $BkTextBox;
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	margin-bottom: 22px;
+	transition: .3s;
+	&:hover {
+		background-color: $HoverTb;
+	}
+	&:focus {
+		border: 2px solid $FocuasTb;
+		background-color: #fff;
+	}
+}
+textarea {
+	min-height: 150px;
+}
+.boton {
+	width: 40%;
+	padding: 0.5rem 1rem;
+	background-color: $SocialBar;
+	color: #fff;
+	font-size: 1.1rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	border-radius: 10px;
+	transition: .3s;
+	&:hover {
+		background-color: $Cabecera;
+		color: azure;
+	}
+}

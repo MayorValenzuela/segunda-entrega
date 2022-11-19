@@ -1,0 +1,45 @@
+.card {
+	width: 300px;
+	height: 30rem;
+	transition: all 400ms ease;
+	&:hover {
+		transform: translateY(-3%);
+	}
+}
+.tarjeta {
+	width: 400px;
+	transition: all 400ms ease;
+}
+.card__img {
+	width: 25rem;
+	height: fit-content;
+	padding: 20px 0;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.button_course {
+	margin-top: 15px;
+	display: block;
+	text-align: center;
+	background-color: rgb(159, 197, 248);
+	color: black;
+	padding: 15px 0;
+	border: 2px solid blue;
+}
+.imagen {
+	width: auto;
+	height: auto;
+	max-width: 298px;
+	max-height: 198px;
+	margin: 5px;
+}
+.avatar {
+	border-radius: 50%;
+	width: 32px;
+	padding-bottom: 2px;
+	padding-right: 2px;
+	&:hover {
+		transform: scale(120%);
+	}
+}

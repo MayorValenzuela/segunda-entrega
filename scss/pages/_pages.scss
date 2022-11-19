@@ -1,0 +1,142 @@
+@import "../main/variables";
+
+body {
+	margin: 0;
+	position: relative;
+	padding-bottom: 3em;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+header {
+	background-color: $Cabecera;
+}
+.cabecera {
+	background-color: $Cabecera;
+}
+footer {
+	width: 100%;
+	padding: 50px 0px 0px 0px;
+	background-size: cover;
+	background-color: $SocialBar;	
+	margin: 0;	
+}
+.footer__container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	max-width: 1200px;
+	margin: auto;
+	background-color: $SocialBar;
+}
+.footer__box {
+	background-color: $SocialBar;
+}
+.div_header {
+	background-color: $Cabecera;
+}
+.div_footer {
+	background-color: $SocialBar;
+}
+.logo {
+	background-color: $Cabecera;
+	color: azure;
+}
+.h1_main_title {
+	color: whitesmoke;
+	background-color: $Cabecera;
+	padding: 10px 10px 10px 3px;
+}
+.h3_subtitle {
+	color: whitesmoke;
+	background-color: $Cabecera;
+	width: 100%;
+}
+.h3_aside {
+	color: whitesmoke;
+	background-color: $Cabecera;
+	text-align: center;
+	display: block;
+	padding: 10px;
+}
+.rrss {
+	background-color: $SocialBar;
+	color: azure;	
+}
+.icono {
+	background-color: $SocialBar;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+}
+.titulos {
+	display: flex;
+	width: 100%;
+}
+.h2_subtitle {
+	background-color: $Subtitle;
+	color: whitesmoke;
+	text-align: center;
+	padding: 16px;
+}
+.h3 {
+	text-align: center;
+	padding: 15px;
+}
+section {
+	article {
+		a {
+			&:hover {
+				background: rgb(59, 143, 253);
+			}
+		}
+	}
+}
+.p {
+	text-align: justify;
+	padding: 20px;
+}
+.h4_footer {
+	color: whitesmoke;
+	text-align: center;
+	padding: 4px;
+}
+.footer_img {
+	background-color: $SocialBar;
+	padding: 10px;
+}
+.container-foot {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 50px;
+	background-color: $SocialBar;
+}
+.li-background {
+	background-color: $SocialBar;
+	color: whitesmoke;
+	list-style-type: none;
+}
+.container-f {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+}
+h2 {
+	position: relative;
+	padding: 0 0 10px;
+	margin-bottom: 10px;
+	&:after {
+		content: '';
+		position: absolute;
+		left: 50%;
+		bottom: 0;
+		transform: translateX(-50%);
+		height: 4px;
+		width: 70px;
+		border-radius: 2px;
+		background-color: $SocialBar;
+	}
+}

@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+:root {
+    --colorSocialBar: $SocialBar; //rgb(6, 66, 118);
+	--colorCabecera: rgb(43, 120, 228);
+    --colorSubtitle: rgb(159, 197, 248);
+    --colorFieldBorder:rgba(0, 0, 0, 0);
+    --colorbkTextBox: rgba(230, 230, 230, 0.6);
+    --colorHoverTb: rgba(0, 0, 0, 0.1);
+    --colorFocuasTb:rgba(30,85,250,0.47);
+    --bs-body-font-family: 'Raleway', sans-serif;
+}
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: whitesmoke;
+}
